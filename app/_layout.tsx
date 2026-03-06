@@ -6,7 +6,7 @@ export default function RootLayout() {
   return (
     <SafeAreaProvider>
       <ThemeProvider>
-        <Stack>
+        <Stack>  {/* Navigation ด้วย expo-router อยู่ตรง <Stack> ทั้งหมดนี้ */}
         <Stack.Screen
           name="index"
           options={{
