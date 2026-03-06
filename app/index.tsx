@@ -1,6 +1,11 @@
+// import library ที่จำเป็นจาก React และ React Native
 import React, { useEffect } from 'react';
 import { View, Text, FlatList, TouchableOpacity, StyleSheet, ActivityIndicator } from 'react-native';
+
+// import hook ที่ใช้ดึงข้อมูล asset จาก database / storage
 import { useAssets } from '../hooks/useAssets';
+
+// ใช้สำหรับเปลี่ยนหน้าในแอป (navigation)
 import { useRouter } from 'expo-router';
 import { useIsFocused } from '@react-navigation/native';
 import { useTheme, getColors } from '../lib/themeContext';
